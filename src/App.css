@@ -2,37 +2,71 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  margin:10%;
+  background-color:#5dc7b412;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.content{
+  padding:50px; 
+  height:50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.slider{
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.inputField{
+  border: none;
+    font-size: 20px;
+    color: #03A9F4;
+    min-width: 40px;
+    min-width: 40px;
+    text-align: center;
+    font-weight: bold;
+    max-width: 92px;
+    background: rgb(93 199 180 / 0%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputField:focus{
+  border: none !important;
+  outline: none;  
+}
+
+.earningContent{
+  border-bottom: 1px solid rgb(52 199 29 / 60%);
+  color: rgb(52 199 29 / 60%);
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.feesContent{
+  border-bottom: 1px solid #000000bf;
+  color: #000000bf;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.footerContent{
+  font-size:8px;
+  opacity:0.2;
+  font-weight:bold;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.inputFieldContainer{
+  display:contents;
+  color:#03A9F4;
+  font-weight:bold;
 }
