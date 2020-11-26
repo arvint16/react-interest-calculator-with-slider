@@ -74,7 +74,8 @@ export default class App extends Component {
 
       <div className='footerContent'>{footerContent} </div>
     </div>
-    <input className="slider" type="range" min="0" max="260000"  width='100%' value={amountValue} onChange={(e)=>this.handleAmountChange(e,'slider')} />
+    <input className="slider" title={`$${amountValue}`} type="range" min="0" max="260000"  width='100%' value={amountValue} onChange={(e)=>this.handleAmountChange(e,'slider')} />
+    <div className='sliderValue'>{`$${amountValue}`}</div>
     </div>
     </div>
       </div>

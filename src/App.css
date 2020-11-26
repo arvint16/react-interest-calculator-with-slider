@@ -70,3 +70,10 @@ input[type=number]::-webkit-outer-spin-button {
   color:#03A9F4;
   font-weight:bold;
 }
+
+
+.sliderValue{
+  color: #000000bf;
+  text-align: center;
+  font-weight: bold;
+}
